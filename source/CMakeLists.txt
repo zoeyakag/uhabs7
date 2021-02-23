@@ -204,8 +204,8 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/libraries)
 
 
 # Note that the modules folder must be cloned/added in manually
-include_directories(${COSMOS_SOURCE}/modules/devices/cubespace/libraries)
-add_subdirectory(${COSMOS_SOURCE}/modules/devices/cubespace/libraries     ${CMAKE_BINARY_DIR}/libraries/cubespace/)
+#include_directories(${COSMOS_SOURCE}/modules/devices/cubespace/libraries)
+#add_subdirectory(${COSMOS_SOURCE}/modules/devices/cubespace/libraries     ${CMAKE_BINARY_DIR}/libraries/cubespace/)
 
 #include_directories(${COSMOS_SOURCE}/modules/devices/eps/clydespace/libraries)
 #add_subdirectory(${COSMOS_SOURCE}/modules/devices/eps/clydespace/libraries     ${CMAKE_BINARY_DIR}/libraries/eps/clydespace/libraries)
@@ -222,8 +222,8 @@ add_subdirectory(${COSMOS_SOURCE}/modules/devices/cubespace/libraries     ${CMAK
 #include_directories(${COSMOS_SOURCE}/modules/devices/isis/libraries/trxvu)
 #add_subdirectory(${COSMOS_SOURCE}/modules/devices/isis/libraries/trxvu     ${CMAKE_BINARY_DIR}/libraries/isis/trxvu)
 
-include_directories(${COSMOS_SOURCE}/modules/devices/gps/oemv/libraries)
-add_subdirectory(${COSMOS_SOURCE}/modules/devices/gps/oemv/libraries     ${CMAKE_BINARY_DIR}/libraries/gps/oemv)
+#include_directories(${COSMOS_SOURCE}/modules/devices/gps/oemv/libraries)
+#add_subdirectory(${COSMOS_SOURCE}/modules/devices/gps/oemv/libraries     ${CMAKE_BINARY_DIR}/libraries/gps/oemv)
 
 # add the Programs
 add_subdirectory(${PROJECT_SOURCE_DIR}/programs)
