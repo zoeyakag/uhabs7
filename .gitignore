@@ -1,0 +1,6 @@
+build-Desktop/
+source/CMakeLists.txt.user
+source/build/arm_/
+source/build/arm_Release/
+source/build/linux/
+
